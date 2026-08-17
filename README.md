@@ -1,7 +1,9 @@
 # Chip House Club
 
-> **ПРОФИЛЬ → РЕЙТИНГ → ДОСТИЖЕНИЯ → ЗАПИСЬ НА ТУРНИР**  
-> PWA для игроков клуба, работающая на общих данных с CRM.
+> **PROFILE → RANKING → ACHIEVEMENTS → TOURNAMENT REGISTRATION**  
+> A player-facing PWA built on the same data foundation as the club CRM.
+
+[Русская версия](README.ru.md)
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-0D1214?style=flat&logo=typescript&logoColor=58A79C)
 ![React](https://img.shields.io/badge/React-0D1214?style=flat&logo=react&logoColor=58A79C)
@@ -9,34 +11,34 @@
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-0D1214?style=flat&logo=tailwindcss&logoColor=58A79C)
 ![PWA](https://img.shields.io/badge/PWA-0D1214?style=flat&logo=pwa&logoColor=E4A244)
 
-![Главный экран приложения игрока](assets/club-home.jpg)
+![Player app home screen](assets/club-home.jpg)
 
-## Задача
+## Context
 
-Игроки регулярно уточняли у администратора место в рейтинге, расписание, достижения и условия записи на турнир. Нужно было перенести эти самообслуживаемые сценарии в отдельное приложение, сохранив единую картину данных с клубной CRM.
+Players regularly asked administrators about their ranking, tournament schedule, achievements, and registration status. The goal was to move these self-service flows into a dedicated mobile-friendly app without creating a separate, inconsistent data source.
 
-## Что собрано
+## What I built
 
-| Контур | Решение |
+| Area | Solution |
 |---|---|
-| Профиль игрока | Персональная информация, история и актуальный статус |
-| Рейтинг | Место игрока, очки и сравнение с другими участниками сезона |
-| Достижения | Трофеи, значки и игровой прогресс |
-| Турниры | Расписание и сценарий записи до начала события |
-| Мобильный доступ | PWA, которую можно установить на телефон без магазина приложений |
+| Player profile | Personal information, history, and current status |
+| Ranking | Place, points, and season-wide comparison |
+| Achievements | Trophies, badges, and player progress |
+| Tournaments | Schedule and pre-event registration flows |
+| Mobile access | An installable PWA that works without an app-store release |
 
-![Рейтинг игроков](assets/club-standings.jpg)
+![Player ranking screen](assets/club-standings.jpg)
 
-## Инженерные решения
+## Engineering decisions
 
-Приложение использует общий контур данных с CRM клуба, но строит отдельный клиентский опыт для игрока. Клиентская навигация, кэширование запросов и адаптивная PWA-оболочка обеспечивают быстрый доступ к часто запрашиваемой информации на мобильном устройстве.
+The application uses the CRM’s shared data foundation while presenting a separate experience for the player. Client-side routing, request caching, and a responsive PWA shell keep frequently requested information accessible from a phone.
 
-## Стек
+## Stack
 
 `TypeScript` · `React` · `Vite` · `Tailwind CSS` · `React Router` · `TanStack Query` · `PWA`
 
-## Что опубликовано
+## What is public
 
-Этот репозиторий — публичное досье проекта. В нём отсутствуют исходный код, реальные профили игроков, данные турниров и настройки сервера. Скриншоты показывают интерфейс на демонстрационных данных.
+This repository is a public engineering case study. It intentionally excludes source code, player profiles, live tournament data, server configuration, and credentials. Screenshots use demonstration data.
 
-[Посмотреть полный кейс на портфолио →](https://artyomliske.github.io/#case-chclub)
+[View the full portfolio case →](https://artyomliske.github.io/?lang=en#case-chclub)
