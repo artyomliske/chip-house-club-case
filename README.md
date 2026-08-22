@@ -41,4 +41,4 @@ The application uses the CRM’s shared data foundation while presenting a separ
 
 This repository is a public engineering case study. It intentionally excludes source code, player profiles, live tournament data, server configuration, and credentials. Screenshots use demonstration data.
 
-[View the full portfolio case →](https://artyomliske.github.io/?lang=en#case-chclub)
+[View the full portfolio case →](https://artyomliske.ru/#case-chclub)
